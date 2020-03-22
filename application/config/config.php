@@ -521,3 +521,11 @@ $config['rewrite_short_tags'] = FALSE;
 | Array:		array('10.0.1.200', '192.168.5.0/24')
 */
 $config['proxy_ips'] = '';
+
+/* $config['http_response_unauthorized'] = '401';
+$config['http_response_ok'] = '200';
+$config['ci-oauth-bshaffer_db_host'] = 'localhost';
+$config['ci-oauth-bshaffer_db_database'] = 'ci-oauth-bshaffer';
+$config['ci-oauth-bshaffer_db_username'] = 'root';
+$config['ci-oauth-bshaffer_db_password'] = 'legolas136';
+ */

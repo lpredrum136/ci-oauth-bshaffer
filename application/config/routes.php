@@ -49,6 +49,9 @@ defined('BASEPATH') or exit('No direct script access allowed');
 | Examples:	my-controller/index	-> my_controller/index
 |		my-controller/my-method	-> my_controller/my_method
 */
+$route['token'] = 'oauth/token';
+$route['resource'] = 'oauth/resource';
+
 $route['default_controller'] = 'pages/view';
 $route['(:any)'] = 'pages/view/$1';
 
